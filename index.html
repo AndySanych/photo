@@ -3,54 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Photo app</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
     <header>
       <nav>
-        <a href="./index.html">
+        <a class="logo" href="./index.html">
           <img src="./images/logo.svg" alt="logo" />
           photo
         </a>
 
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Support</a></li>
+        <ul class="site-nav list">
+          <li><a class="link current" href="#">Features</a></li>
+          <li><a class="link" href="#">Pricing</a></li>
+          <li><a class="link" href="./community.html">Community</a></li>
+          <li><a class="link" href="#">Support</a></li>
         </ul>
 
-        <ul>
-          <li><a href="#">Log in</a></li>
-          <li><a href="#">Register</a></li>
+        <ul class="auth-nav list">
+          <li><a class="button primary" href="#">Log in</a></li>
+          <li><a class="button secondary" href="#">Register</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <!--Hero-->
-      <section>
-        <h1>The largest community of photo enthusiasts</h1>
-        <a href="#">Join Today</a>
+      <section class="hero">
+        <h1 class="hero-title">The largest community of photo enthusiasts</h1>
+        <a class="button primary" href="#">Join Today</a>
       </section>
 
-      <!--Advantages-->
-      <section>
-        <h2>
+      <!--Features-->
+      <section class="section">
+        <h2 class="section-title">
           Snap photos and share like <br />
           never before
         </h2>
 
-        <ul>
+        <ul class="features-list list">
           <li>
-            <h3>Sed ut perspiciatis</h3>
+            <h3 class="title">Sed ut perspiciatis</h3>
             <p>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est.
             </p>
-            <a href="">Learn more</a>
+            <a class="button secondary" href="">Learn more</a>
           </li>
           <li>
             <h3>Lorem ipsum dolor</h3>
@@ -59,7 +60,7 @@
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis nostrud exercitation ullamco laboris nisi.
             </p>
-            <a href="">Learn more</a>
+            <a class="button secondary" href="">Learn more</a>
           </li>
           <li>
             <h3>Nemo enim ipsam</h3>
@@ -68,7 +69,7 @@
               nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
               sit amet, consectetur, adipisci velit, sed quia non numquam.
             </p>
-            <a href="">Learn more</a>
+            <a class="button secondary" href="">Learn more</a>
           </li>
           <li>
             <h3>Tempor incididunt</h3>
@@ -77,13 +78,13 @@
               est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
               velit, sed quia non numquam eius modi tempora.
             </p>
-            <a href="">Learn more</a>
+            <a class="button secondary" href="">Learn more</a>
           </li>
         </ul>
       </section>
 
       <!--Work examples-->
-      <section>
+      <section class="section">
         <h2>Work examples</h2>
         <!--Hidden title-->
         <ul>
@@ -109,8 +110,8 @@
       </section>
 
       <!--Testimonials-->
-      <section>
-        <h2>You’re in good company</h2>
+      <section class="section">
+        <h2 class="section-title">You’re in good company</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
@@ -161,15 +162,15 @@
       </section>
 
       <!--Singnup-->
-      <section>
+      <section class="section">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
 
         <div>
-          <a href="">Join Today</a>
-          <a href="">Contact us</a>
+          <a class="button primary" href="">Join Today</a>
+          <a class="button secondary" href="">Contact us</a>
         </div>
       </section>
     </main>
